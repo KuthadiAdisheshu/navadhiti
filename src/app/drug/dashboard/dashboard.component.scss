@@ -1,0 +1,66 @@
+
+
+
+h4{
+    color: black;
+    padding-top: 10%;
+}
+ .form-wrapper{
+     display: flex;
+
+     background-color:#87cefa ;
+    
+    
+       
+        
+ }
+body {
+    height: 200vh;
+    
+        text-align: center;
+}
+button{
+    border: none;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    body {
+        background-color:#87cefa ;
+        height: 180vh;
+      //  clear: both;
+        text-align: center;
+    }
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 570px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    /* your mobile css, change this as you please */
+    body {
+        background-color:#87cefa ;
+        height: 120vh;
+      //  clear: both;
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    /* your desktop css */
+body {
+        background-color:#87cefa ;
+        height: 100vh;
+        clear: both;
+        text-align: center;
+    }
+}
